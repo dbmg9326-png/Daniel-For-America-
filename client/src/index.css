@@ -259,6 +259,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
 .madison-facts strong { display: block; margin: 14px 0 8px; color: var(--ink); font: 500 clamp(38px, 4.4vw, 64px)/.9 var(--serif); letter-spacing: -.04em; }
 .madison-facts p { max-width: 320px; margin: 0; color: rgba(8,18,29,.62); font-size: 11px; line-height: 1.55; }
 .madison-quote { color: var(--rose-deep); font: italic 500 30px/.98 var(--serif); }
+.smart-power-quote { margin: 32px 0 0; color: var(--white); font: italic 500 26px/1.15 var(--serif); border-left: 2px solid var(--rose-deep); padding-left: 24px; }
 .press-section { padding: 112px 0 118px; }
 .press-grid { display: grid; grid-template-columns: .9fr 1.1fr; gap: 12%; }
 .press-grid h2 { margin-bottom: 23px; }
