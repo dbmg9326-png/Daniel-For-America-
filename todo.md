@@ -1,0 +1,57 @@
+# Media report update checklist
+
+- [x] Inspect the uploaded New Ellis Island Approach report metadata and content.
+- [x] Copy and upload the report as a persistent web asset.
+- [x] Add the report to the Equality/official media materials area with a clear download action.
+- [x] Update the media materials list to include both downloadable reports.
+- [x] Run checks, verify both report links, capture a preview, and save a checkpoint.
+- [x] Inspect and upload the Federal Criminal Justice Reform Proposal report.
+- [x] Add the justice reform report to the media downloads and materials list.
+- [x] Verify all three report links and save a checkpoint.
+- [ ] Prepare the Commercial Cryptography report from the supplied content.
+- [ ] Add it to the Digital Rights and media materials areas.
+- [x] Verify all four report links and save a checkpoint.
+- [x] Save the final publishable checkpoint for the Commercial Cryptography update.
+- [x] Replace the displayed contact phone number with 516-304-4389.
+- [x] Verify the phone link and publish the update.
+- [x] Prepare the supplied Daniel for America logo for website use.
+- [x] Apply the logo to header, footer, favicon, and metadata.
+- [x] Verify the logo update and publish a checkpoint.
+- [x] Add (646) 493-1595 beneath the primary contact under After Working Hours.
+- [x] Verify both contact numbers and publish a checkpoint.
+- [x] Diagnose why report-reading links are not opening their reports.
+- [x] Repair all report links and verify each one opens correctly.
+- [x] Publish the verified report-link fix.
+- [x] Inspect the Madison, D.C. Complete Report and prepare its media metadata.
+- [x] Add the report to a future-facing site section and Official Materials.
+- [x] Verify the report link and publish the update.
+- [x] Add Madison, D.C. as a dedicated chapter with future-facing copy.
+- [x] Add chapter navigation and direct report access.
+- [x] Verify and publish the chapter update.
+- [x] Update Madison, D.C. chapter messaging to emphasize progress and equality.
+- [x] Verify the revised copy and preserve report access.
+- [x] Publish the messaging update.
+- [x] Add the Four Pillars Mission Statement as the opening site message.
+- [x] Add Mission navigation and visually structure Hope, Equality, Progress, and Security.
+- [x] Verify existing chapters and publish the Mission Statement update.
+- [x] Verify the supplied Venmo donation destination.
+- [x] Add Political Contributions links to the primary call-to-action area and footer.
+- [x] Verify the Political Contributions link and publish the update.
+- [x] Add Political Contributions to the mobile navigation menu.
+- [ ] Verify the phone layout and Venmo destination.
+- [ ] Research official FEC requirements for campaign websites and online contributions.
+- [ ] Map requirements to the site, Venmo flow, disclaimers, and disclosures.
+- [x] Draft a counsel-review compliance checklist using the exact committee name: Daniel Bernard For America.
+- [x] Confirm the committee’s FEC ID: C00960534.
+- [x] Confirm committee type and candidate office/election: principal campaign committee for Daniel Bernard for President.
+- [x] Confirm the displayed treasurer identity: Daniel Bernard — Interim Treasurer.
+- [ ] Verify the Statement-of-Organization wording before final publication.
+- [x] Publish the contribution-page draft with Treasurer: To be designated.
+- [x] Publish contribution guardrails with committee identity, FEC ID, eligibility notices, recordkeeping statement, and pending-treasurer status.
+- [x] Verify the guardrails layout and disclosures, then publish a checkpoint.
+- [ ] Verify the draft disclosures and mobile presentation before checkpoint.
+- [ ] Publish the mobile navigation update.
+
+- [ ] Rebuild fresh password-free engineer handoff and PDF archives after the reported ZArchiver password prompt.
+- [ ] Verify the fresh archives contain no encrypted entries and pass integrity checks; record SHA-256 hashes for transfer verification.
+- [ ] Deliver the verified fresh archives with copy-paste transfer and security instructions.
