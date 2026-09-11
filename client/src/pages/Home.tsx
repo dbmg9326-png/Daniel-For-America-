@@ -29,6 +29,7 @@ const ELLIS_REPORT_FILE = "/media/new-ellis-island-approach.pdf";
 const JUSTICE_REPORT_FILE = "/media/federal-criminal-justice-reform.pdf";
 const CRYPTO_REPORT_FILE = "/media/commercial-cryptography-report.pdf";
 const MADISON_REPORT_FILE = "/media/madison-dc-complete-report.pdf";
+const SMART_POWER_IMAGE = "/media/smart-power-trust.svg";
 const VENMO_PROFILE = "https://www.venmo.com/u/Daniel4America1";
 
 const navItems = [
@@ -39,6 +40,7 @@ const navItems = [
   { label: "Digital rights", target: "digital" },
   { label: "Equality", target: "equality" },
   { label: "Madison, D.C.", target: "madison" },
+  { label: "Smart power", target: "smart-power" },
   { label: "Press", target: "press" },
   { label: "Contributions", target: "contributions" },
 ];
@@ -214,6 +216,22 @@ export default function Home() {
 
         <section id="madison" className="section madison-section parchment">
           <div className="page-width madison-grid"><div><div className="section-marker"><span>07 — Madison, D.C.</span><i /></div><span className="mini-label">Chapter 6 · Looking ahead</span><h2>Progress and equality<br /><em>for our people.</em></h2><p>Madison, D.C. and Washington, Maryland look toward a future where representation, opportunity, and public life move forward together—bringing progress and equality to our people.</p><div className="madison-actions"><ArrowLink href={MADISON_REPORT_FILE} newTab>Read the complete chapter</ArrowLink><a className="text-button dark-text-button" href={MADISON_REPORT_FILE} download><Download size={16} /> Download the report</a></div></div><div className="madison-facts"><div><span className="mini-label">The premise</span><strong>700,000+</strong><p>Americans who have paid taxes without voting Senators for generations.</p></div><div><span className="mini-label">The horizon</span><strong>1793 → now</strong><p>Federal architecture and representation should reflect the speed of information today.</p></div><div className="madison-quote">“Madison, D.C. and Washington, Maryland—bringing progress and equality to our people.”</div></div></div>
+        </section>
+
+        <section id="smart-power" className="section smart-power-section image-section">
+          <div className="image-section-media" style={{ backgroundImage: `url(${SMART_POWER_IMAGE})` }}><div className="image-caption">The trust of today vs. where we need to be</div></div>
+          <div className="image-section-content">
+            <div className="section-marker"><span>09 — Smart power</span><i /></div>
+            <h2>A constitutional check<br />on treaty <em>withdrawal.</em></h2>
+            <p>Presidents can currently withdraw the United States from treaties on their own, leaving allies and partners uncertain and weakening the weight of every commitment America makes. This proposal requires two-thirds of the Senate to affirm any presidential move to dissolve a treaty — the same threshold already required to ratify one.</p>
+            <div className="feature-list">
+              <div><strong>Trust in contracts</strong><span>Nations and markets invest in partnerships with the U.S. because they trust our word. Stable treaties mean stable alliances, trade, and security.</span></div>
+              <div><strong>Smart power projection</strong><span>Leadership depends on being seen as dependable. This amendment signals that American commitments outlast any one administration.</span></div>
+              <div><strong>A check on impulse</strong><span>It prevents abrupt withdrawals that damage long-term interests, preserving continuity in foreign policy and the value of U.S. diplomacy.</span></div>
+            </div>
+            <blockquote className="smart-power-quote">Just as the Senate must approve a treaty by two-thirds, it must affirm the treaty's dissolution by the same margin.</blockquote>
+            <span className="content-note">America's credibility is its most powerful asset — this amendment constitutionalizes the trust that makes our smart power possible.</span>
+          </div>
         </section>
 
         <section id="press" className="section press-section parchment">
