@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 320" role="img">
+<title>The trust of today compared with where America's word needs to be</title>
+<desc>Left: a torn cocktail napkin with a scribbled, casual IOU, representing the trust of today. Right: a formal notarized document with straight text lines, a red wax seal, and a signature line, representing where America's commitments need to be.</desc>
+<rect width="380" height="320" fill="#fdfaf3"/>
+<path d="M25 40 L60 32 L100 38 L140 30 L165 45 L160 90 L168 140 L150 190 L162 230 L120 245 L90 238 L55 248 L30 220 L38 170 L22 130 L35 85 Z" fill="#f6ecd9" stroke="#c9bfa0" stroke-width="1"/>
+<circle cx="105" cy="150" r="26" fill="none" stroke="#a9835a" stroke-width="3" opacity="0.35"/>
+<circle cx="105" cy="150" r="19" fill="none" stroke="#a9835a" stroke-width="2" opacity="0.3"/>
+<g font-family="Georgia, serif" font-style="italic" fill="#3a2f22">
+<text x="52" y="65" font-size="15">IOU</text>
+<text x="50" y="90" font-size="11">i'll honor it,</text>
+<text x="50" y="106" font-size="11">probably, for now</text>
+<path d="M48 118 Q75 112 100 119 Q120 124 138 116" fill="none" stroke="#3a2f22" stroke-width="1.2"/>
+<text x="45" y="200" font-size="20" font-weight="500">$$$</text>
+<path d="M50 215 Q65 210 82 216" fill="none" stroke="#3a2f22" stroke-width="1.2"/>
+</g>
+<rect x="210" y="30" width="150" height="215" rx="4" fill="#fdfaf3" stroke="#b8b2a5" stroke-width="1"/>
+<rect x="228" y="48" width="114" height="4" rx="2" fill="#b8b2a5"/>
+<rect x="228" y="60" width="114" height="4" rx="2" fill="#d8d2c2"/>
+<rect x="228" y="72" width="94" height="4" rx="2" fill="#d8d2c2"/>
+<rect x="228" y="84" width="114" height="4" rx="2" fill="#d8d2c2"/>
+<rect x="228" y="96" width="80" height="4" rx="2" fill="#d8d2c2"/>
+<rect x="228" y="108" width="114" height="4" rx="2" fill="#d8d2c2"/>
+<rect x="228" y="120" width="100" height="4" rx="2" fill="#d8d2c2"/>
+<line x1="228" y1="175" x2="300" y2="175" stroke="#16264a" stroke-width="1"/>
+<text x="228" y="188" font-family="Arial, sans-serif" font-size="10" fill="#6b6558">signed</text>
+<circle cx="322" cy="205" r="20" fill="#c81d25"/>
+<path d="M322 195 L325 202 L332 202 L326 207 L328 214 L322 210 L316 214 L318 207 L312 202 L319 202 Z" fill="#fdfaf3"/>
+<path d="M310 222 L316 240 L322 224 Z" fill="#c81d25"/>
+<path d="M334 222 L328 240 L322 224 Z" fill="#16264a"/>
+<text x="285" y="40" font-family="Arial, sans-serif" font-size="12" font-weight="600" fill="#16264a" text-anchor="middle">Official record</text>
+<text x="190" y="150" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#6b6558" text-anchor="middle">vs</text>
+<text x="95" y="285" font-family="Arial, sans-serif" font-size="14" fill="#16264a" text-anchor="middle">The trust of today</text>
+<text x="95" y="303" font-family="Arial, sans-serif" font-size="11" fill="#6b6558" text-anchor="middle">One signature away from gone</text>
+<text x="285" y="285" font-family="Arial, sans-serif" font-size="14" fill="#16264a" text-anchor="middle">Where we need to be</text>
+<text x="285" y="303" font-family="Arial, sans-serif" font-size="11" fill="#6b6558" text-anchor="middle">Bound by two-thirds</text>
+</svg>
