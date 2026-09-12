@@ -25,6 +25,7 @@ const REPORT_FILE = "/media/equality-in-america-report.pdf";
 const ELLIS_REPORT_FILE = "/media/new-ellis-island-approach.pdf";
 const JUSTICE_REPORT_FILE = "/media/federal-criminal-justice-reform.pdf";
 const CRYPTO_REPORT_FILE = "/media/commercial-cryptography-report.pdf";
+const SMART_MONEY_REPORT_FILE = "/media/federal-police-funding-smart-money-report.pdf";
 const MADISON_REPORT_FILE = "/media/madison-dc-complete-report.pdf";
 const SECOND_TRACK_REPORT_FILE = "/media/second-track-education-report.pdf";
 const DANIEL_PORTRAIT_IMAGE = "/media/daniel-message-portrait.jpg";
@@ -38,6 +39,7 @@ const navItems = [
   { label: "The approach", target: "approach" },
   { label: "Justice reform", target: "justice" },
   { label: "Digital rights", target: "digital" },
+  { label: "Smart money", target: "smart-money" },
   { label: "Equality", target: "equality" },
   { label: "Madison, D.C.", target: "madison" },
   { label: "Smart power", target: "smart-power" },
@@ -552,6 +554,44 @@ export default function Home() {
                 <div className="digital-actions">
                   <ArrowLink onClick={() => handleNavigate("press")}>Read the chapter outline</ArrowLink>
                   <ArrowLink href={CRYPTO_REPORT_FILE} download>Download the report</ArrowLink>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* 06 - Smart money */}
+        <section id="smart-money" className="section parchment digital-section">
+          <div className="page-width">
+            <div className="section-heading split-heading">
+              <div>
+                <div className="section-marker"><span>06 -- Smart money</span><i /></div>
+                <span className="mini-label">Federal police appropriations</span>
+                <h2>Investing in <em>people,</em><br />not just equipment.</h2>
+              </div>
+              <p>Federal funding for municipal police already exists. The question is not whether we spend money -- it is how we spend it. Too much flows toward post-incident hardware. Too little funds the human skills that prevent crises before they start.</p>
+            </div>
+            <div className="digital-content">
+              <div className="digital-points">
+                <div>
+                  <strong>The core proposal</strong>
+                  <span>A dedicated federal continuing-education grant subsidizing 40-80 hours of ongoing training in cultural competency, de-escalation, and communication skills.</span>
+                </div>
+                <div>
+                  <strong>Not anti-police -- pro-competence</strong>
+                  <span>The profession has changed. Officers must be equipped to change with it.</span>
+                </div>
+                <div>
+                  <strong>Prevention over documentation</strong>
+                  <span>Body cameras and review boards document failure after it happens. Sustained training reduces how often it happens at all.</span>
+                </div>
+                <div>
+                  <strong>Fiscally accountable</strong>
+                  <span>Reporting on completion rates and outcome indicators keeps the investment measurable.</span>
+                </div>
+                <div className="digital-actions">
+                  <ArrowLink onClick={() => handleNavigate("press")}>Read the full case</ArrowLink>
+                  <ArrowLink href={SMART_MONEY_REPORT_FILE} download>Download the report</ArrowLink>
                 </div>
               </div>
             </div>
