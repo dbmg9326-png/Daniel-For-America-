@@ -29,6 +29,8 @@ const ELLIS_REPORT_FILE = "/media/new-ellis-island-approach.pdf";
 const JUSTICE_REPORT_FILE = "/media/federal-criminal-justice-reform.pdf";
 const CRYPTO_REPORT_FILE = "/media/commercial-cryptography-report.pdf";
 const MADISON_REPORT_FILE = "/media/madison-dc-complete-report.pdf";
+const SECOND_TRACK_REPORT_FILE = "/media/second-track-education-report.pdf";
+const DANIEL_PORTRAIT_IMAGE = "/media/daniel-message-portrait.jpg";
 const SMART_POWER_IMAGE = "/media/smart-power-trust.svg";
 const VENMO_PROFILE = "https://www.venmo.com/u/Daniel4America1";
 
@@ -41,6 +43,8 @@ const navItems = [
   { label: "Equality", target: "equality" },
   { label: "Madison, D.C.", target: "madison" },
   { label: "Smart power", target: "smart-power" },
+  { label: "Second track education", target: "second-track" },
+  { label: "A message from Daniel", target: "message" },
   { label: "Press", target: "press" },
   { label: "Contributions", target: "contributions" },
 ];
@@ -231,6 +235,42 @@ export default function Home() {
             </div>
             <blockquote className="smart-power-quote">Just as the Senate must approve a treaty by two-thirds, it must affirm the treaty's dissolution by the same margin.</blockquote>
             <span className="content-note">America's credibility is its most powerful asset — this amendment constitutionalizes the trust that makes our smart power possible.</span>
+          </div>
+        </section>
+
+        <section id="second-track" className="section parchment digital-section">
+          <div className="page-width">
+            <div className="section-heading split-heading"><div><div className="section-marker"><span>10 — Second track education</span><i /></div><span className="mini-label">Workforce sovereignty &amp; opportunity</span><h2>A parallel path to <em>economic independence.</em></h2></div><p>Not every young American is best served by a four-year liberal arts track. This proposal establishes a mandatory, parallel Second Track running alongside traditional education — built on structured, paid apprenticeships and starting exposure as early as grade 9, around age 14, not left as an afterthought in early adulthood.</p></div>
+            <div className="digital-content">
+              <div className="digital-image" style={{ backgroundImage: `url(${DIGITAL_IMAGE})` }}><span>Second track education</span></div>
+              <div className="digital-points">
+                <div><strong>Parents as the ultimate decision-makers</strong><span>Parental sovereignty — not administrative convenience — governs a child's educational path. A parent earning $45,000 holds the same 18-year executive authority as one earning $250 million; income should never limit choice, from early childhood education onward.</span></div>
+                <div><strong>Early exposure, not a late discovery</strong><span>Students are introduced to Second Track pathways by age 14, not left to stumble into vocational training in their thirties — integrated technical modules begin in grade 9, alongside core academics.</span></div>
+                <div><strong>Business carrots, not government mandates</strong><span>Participating businesses earn real economic incentives — apprenticeship tax offsets, streamlined national credentialing, and workforce mobility reciprocity — making it easier and more profitable for employers to hire and train young Americans directly.</span></div>
+                <div className="digital-actions"><ArrowLink href={SECOND_TRACK_REPORT_FILE} newTab>Read the full brief</ArrowLink><ArrowLink href={SECOND_TRACK_REPORT_FILE} download>Download the report</ArrowLink></div>
+              </div>
+            </div>
+            <div className="metric-row second-track-metrics">
+              <div><strong>6.0%</strong><span>Projected youth unemployment, down from 12.0%</span></div>
+              <div><strong>$60,000</strong><span>Projected median income, ages 25–34, up from $45,000</span></div>
+              <div><strong>55%</strong><span>Projected under-35 home ownership, up from 37%</span></div>
+            </div>
+            <blockquote className="smart-power-quote second-track-quote">A parent earning $45,000 a year is no different from a parent earning $250 million. As parents, each holds the definitive executive role over their child's development for eighteen years — one's lack of income should never yield a lack of choice.</blockquote>
+            <div className="second-track-viewer">
+              <span className="mini-label">Full policy brief · 7 pages</span>
+              <iframe src={SECOND_TRACK_REPORT_FILE} title="Second Track Education — full policy brief" className="pdf-viewer" />
+            </div>
+          </div>
+        </section>
+
+        <section id="message" className="section ink message-section">
+          <div className="page-width message-grid">
+            <div className="message-portrait" style={{ backgroundImage: `url(${DANIEL_PORTRAIT_IMAGE})` }} />
+            <div className="message-content">
+              <div className="section-marker light-marker"><span>11 — A message from Daniel</span><i /></div>
+              <blockquote className="message-quote">Thank you to everyone for your continued engagement and investment in the future of the United States of America. We are desperate for hope, and striving for opportunity. Rest assured, I hear your concerns — and I'm happy to report that just around the corner, just beyond the horizon, a new day is dawning in America. Let's have fun. God bless you, and God bless the United States of America.</blockquote>
+              <span className="message-signature">— Daniel</span>
+            </div>
           </div>
         </section>
 
